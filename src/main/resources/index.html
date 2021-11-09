@@ -1,0 +1,87 @@
+<html>
+    <head>
+        <title>Basic Automated Calculator</title>
+    </head>
+    <body>
+        <h2>Add</h2>
+
+        <form action="http://localhost:9000/add" method="post" target="add-frame">
+
+            <input type="number" step="any" name="add1" id="add1-input"> <span> +  </span>
+
+            <input type="number" step="any" name="add2" id="add2-input">
+
+
+            <button id = "add-button">Add</button>
+
+        </form>
+
+
+
+        <iframe name = 'add-frame'></iframe>
+
+
+
+        <h2>Subtract</h2>
+
+        <form action="http://localhost:9000/sub" method="post" target="sub-frame">
+
+            <input type="number" step="any" name="sub1" id="sub1-input"> <span> -  </span>
+
+            <input type="number" step="any" name="sub2" id="sub2-input">
+
+
+            <button id = "sub-button">Subtract</button>
+
+        </form>
+
+
+
+        <iframe name = 'sub-frame'></iframe>
+
+
+
+        <h2>Multiply</h2>
+
+        <form action="http://localhost:9000/mlt" method="post" target="mlt-frame">
+
+            <input type="number" step="any" name="mlt1" id="mlt1-input"> <span> *  </span>
+
+            <input type="number" step="any" name="mlt2" id="mlt2-input">
+
+
+            <button id = "mlt-button">Multiply</button>
+
+        </form>
+
+
+
+        <iframe name = 'mlt-frame'></iframe>
+
+
+
+        <h2>Divide</h2>
+
+        <form action="http://localhost:9000/div" method="post" target="div-frame">
+
+            <input type="number" step="any" name="div1" id="div1-input"> <span> /  </span>
+
+            <input type="number" step="any" name="div2" id="div2-input">
+
+
+            <button id = "div-button">Divide</button>
+
+        </form>
+
+
+
+        <iframe name = 'div-frame'></iframe>
+
+
+
+
+
+    </body>
+
+
+</html>
